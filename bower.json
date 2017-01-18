@@ -1,0 +1,36 @@
+{
+    "name": "NG_GULP_WEBPACK",
+    "description": "NG_GULP_WEBPACK",
+    "main": "app/index.html",
+    "authors": [
+    "TCS#Kochi"
+  ],
+    "moduleType": [],
+    "homepage": "app/index.html",
+    "private": true,
+    "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+    "dependencies": {
+        "angular": "~1.5.5",
+        "angular-route": "~1.5.5",
+        "angular-ui-router": "~0.2.18",
+        "bootstrap-sass": "~3.3.6",
+        "jquery": "~2.2.3",
+        "moment": "~2.13.0",
+        "lodash": "~4.11.2",
+        "noty": "~2.3.8",
+        "angular-sanitize": "~1.5.5",
+        "angular-animate": "~1.5.5",
+        "cryptojslib": "~3.1.2",
+        "angular-breadcrumb": "^0.4.1",
+        "font-awesome": "^4.6.3",
+        "angularjs-slider": "^2.14.0",
+        "angular-translate": "^2.11.0",
+        "angular-translate-loader-partial": "^2.11.0"
+    }
+}

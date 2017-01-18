@@ -1,0 +1,10 @@
+/app/build
+/node_modules
+/bower_components
+/tmp
+/nbproject
+/.sass-cache
+/build
+/dist
+/app/content
+Set_Proxy.bat

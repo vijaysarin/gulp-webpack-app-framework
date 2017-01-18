@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title ng-bind="title"></title>
+    <!-- build:css -->
+    <!-- endbuild -->
+    <!-- build:vendorJs -->
+    <!-- endbuild -->
+</head>
+
+<body>
+    <div>
+        Welcome...
+        <span>&nbsp;&nbsp;&nbsp;</span>
+        <span><a ui-sref="layout">Home</a></span>
+        <span>&nbsp;&nbsp;</span>|<span>&nbsp;&nbsp;</span>
+        <span><a ui-sref="login">Login</a></span>
+        <span>&nbsp;&nbsp;</span>|<span>&nbsp;&nbsp;</span>
+        <span><a ui-sref="register">Register</a></span>
+    </div>
+    <hr/>
+    <div ng-include="'layout/layout.html'" ng-controller="layout as vm"> </div>
+    <!-- build:appJs -->
+    <!-- endbuild -->
+</body>
+
+</html>
