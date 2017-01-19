@@ -1,6 +1,8 @@
-language: node_js
+language: node_js ruby
 node_js:
-- '6.1'
+    - '6.1'
+rvm:
+    - '2.2'
 before_script:
 - npm install -g bower
 - npm install
