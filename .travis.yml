@@ -10,7 +10,6 @@ before_script:
 - gem install sass
 - gem install compass
 - gem install platform-api
-- gem install heroku
 script: gulp build -r
 deploy:
   api_key:
