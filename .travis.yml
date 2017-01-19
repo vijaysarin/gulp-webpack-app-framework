@@ -9,8 +9,8 @@ rvm:
   - 2.2
   - jruby
   - rbx-2
-install: gem install sass  
 before_script:
+  - gem install sass  
   - npm install -g gulp
   - npm install -g gulp
 script: gulp build -r
