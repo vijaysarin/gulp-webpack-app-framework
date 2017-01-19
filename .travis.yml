@@ -3,7 +3,6 @@ node_js:
 - '6.1'
 rvm:
 - '2.2'
-- '1.9.3'
 before_script:
 - npm install -g bower
 - npm install
@@ -16,5 +15,3 @@ script: gulp build -r
 deploy:
   api_key:
     secure: CxMJARSlhKMjxg0S/sZUjzTfbwcxB2MyaXquRo4mdpd17nWk1I11fNehvApEzQ8TSl5joD99sPSkeIdneRZ9ozw4lUe98qXqx+TheuNirNX8657Akz8fJu/+hkdOjXyJSDAQ7xra8uz8k8WmUn8Yxm4KAfhx1FSVkv49XgUsaIdyoFM0fn5LQLWnOvpiVpYYIY+Q2kWdgcPQP9Ci0nlp5Y4cvcRfx93pwqtEagiFKWrFiDRdWLxg7Wrjl0ae60bjWQhh24fOFXI50x7hqZFQIcGE1K18exDM1XkoYK4lHJiCl9Y9lwYBwVTMnMcVibWhs95C0UXD+AmOJylqSE2bGJzGZk/cO8WP3lO660jixxs4yhONK9y+NQLd35dVjLpCChDauOQ/qWApGAdOZLuNCnlxD3FrpDivhd2y+MjF1lKxgOz4CjZUCI1vxx1hu76guwmBmIO7o0BHAYCUBS88tzn2DbL+vKhFaVAl+SUHCsDZBWoTZnfjN1MCKlyX07OW7VWZh74sGCIM+1XC6E4x/L7aciFPPzmekhOfWuYeH/3YcqLRzQPwxw19dl4yHlQUkl9Dq+t5Q+cmwMe23wxqyFXA4pWk8/QHWVIsY3kv9pAu+K3oAFJoW/eCY+peK2mvalFurbJt7GTdC0nz9fnylglDREpH1RwDZdZWcAHxxCg=
-    on:
-        rvm: 1.9.3
