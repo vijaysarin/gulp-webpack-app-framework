@@ -6,7 +6,6 @@ var del = require('del');
 var devConnect = plug.connectMulti();
 var relConnect = plug.connectMulti();
 var pkg = require('./package.json');
-var plato = require('plato');
 var webpack = require("webpack");
 var stream = require("webpack-stream");
 var webpackDevConfig = require("./webpack.dev.config.js");
