@@ -7,5 +7,6 @@ node_js:
   - "iojs"
 before_script:    
   - npm install
+  - bower install
   - gem install sass  
 script: gulp build -r
