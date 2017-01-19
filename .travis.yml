@@ -6,6 +6,7 @@ before_script:
 - npm install
 - bower install
 - gem install sass
+- gem install compass
 script: gulp build -r
 deploy:
   provider: heroku
